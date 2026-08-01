@@ -59,7 +59,7 @@ Example filters used:
 
 ```
 http
-ip.src == <Attacker IP> && http
+ip.src == 14.0.0.120 && http
 ```
 
 The attacker's IP address was then checked using an IP geolocation service.
@@ -71,6 +71,7 @@ The attacker's IP address was then checked using an IP geolocation service.
 Analyzed HTTP requests directed at different ports to determine which service exposed the Tomcat administrative interface.
 
 The investigation revealed that the Tomcat Manager application was running on **port 8080**.
+<img width="940" height="496" alt="image" src="https://github.com/user-attachments/assets/9c13606e-3cb8-4251-9c5b-7de822fa65c7" />
 
 ---
 
