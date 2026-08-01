@@ -72,7 +72,7 @@ Analyzed HTTP requests directed at different ports to determine which service ex
 
 The investigation revealed that the Tomcat Manager application was running on **port 8080**.
 
-<img width="940" height="496" alt="image" src="https://github.com/user-attachments/assets/9c13606e-3cb8-4251-9c5b-7de822fa65c7" />
+<img width="752" height="397" alt="Picture6" src="https://github.com/user-attachments/assets/36517b61-1ff0-426c-9013-2c651c236810" />
 
 ---
 
@@ -135,8 +135,7 @@ The uploaded file was extracted from the HTTP request.
 
 Finally, the attacker's commands were examined to identify the persistence mechanism used after obtaining a reverse shell.
 
-<img width="940" height="441" alt="image" src="https://github.com/user-attachments/assets/ad0ed73f-6f80-4e48-b143-17489564faac" />
-
+<img width="752" height="353" alt="command-execution" src="https://github.com/user-attachments/assets/cb4ecd6f-42c2-42b2-916f-f3a88b1fba97" />
 
 ---
 
