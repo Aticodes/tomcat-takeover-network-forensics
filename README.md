@@ -71,6 +71,7 @@ The attacker's IP address was then checked using an IP geolocation service.
 Analyzed HTTP requests directed at different ports to determine which service exposed the Tomcat administrative interface.
 
 The investigation revealed that the Tomcat Manager application was running on **port 8080**.
+
 <img width="940" height="496" alt="image" src="https://github.com/user-attachments/assets/9c13606e-3cb8-4251-9c5b-7de822fa65c7" />
 
 ---
@@ -125,11 +126,17 @@ After successful authentication, HTTP POST requests were analyzed to identify th
 
 The uploaded file was extracted from the HTTP request.
 
+<img width="940" height="184" alt="image" src="https://github.com/user-attachments/assets/e10fcf99-1bf0-48c9-bd17-37ee7be8d701" />
+
+
 ---
 
 ### Step 8 – Persistence
 
 Finally, the attacker's commands were examined to identify the persistence mechanism used after obtaining a reverse shell.
+
+<img width="940" height="441" alt="image" src="https://github.com/user-attachments/assets/ad0ed73f-6f80-4e48-b143-17489564faac" />
+
 
 ---
 
